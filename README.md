@@ -8,6 +8,8 @@ Download the Mac app from:
 
 The current package is **wgmu-1.1.zip**. Unzip it, then open `wireguard-muti.app`.
 
+**WireGuard** is the VPN protocol this app uses: [https://www.wireguard.com/](https://www.wireguard.com/)
+
 The official WireGuard app on Mac only allows one tunnel. This app talks to Homebrew `wg` / `wg-quick` instead, so each config becomes its own `utun` interface and more than one can stay up.
 
 Keys and configs live in the same place as `wgshell`:
@@ -46,9 +48,6 @@ This Mac GUI is **not** a substitute for those command-line tools. Without `wg` 
 
 Change the confirmed VPN later in **Settings**.
 
-## Build
-
-Open `Untitled Project.xcodeproj` in Xcode, select the **MyApp** scheme, and run. The product name is `wireguard-muti`.
 
 ## Local network
 
